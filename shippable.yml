@@ -1,0 +1,22 @@
+language: java
+
+# Version number
+jdk:
+  - openjdk7
+  - openjdk8
+  - oraclejdk8
+
+runtime:
+  nodePool: Arm64
+
+build:
+  pre_ci_boot:
+    image_name: drydock/aarch64_u16javall
+    image_tag: master
+    pull: true
+    
+  ci:
+    - java -version
+    - mvn --version    
+    - ant -version 
+    - gradle --version
