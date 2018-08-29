@@ -18,6 +18,7 @@ build:
     pull: true
     
   ci:
+    - printenv
     - java -version
     - mvn --version    
     - ant -version 
