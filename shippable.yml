@@ -19,5 +19,5 @@ build:
   ci:
     - java -version
     #- mvn --version    
-    - ant -version 
-    - gradle --version
+    #- ant -version 
+    #- gradle --version
