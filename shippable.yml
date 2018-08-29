@@ -4,8 +4,9 @@ language: java
 jdk:
   - openjdk7
   - openjdk8
+  - openjdk10
   - oraclejdk8
-  - oraclejdk10
+  
 
 runtime:
   nodePool: Arm64
@@ -18,6 +19,6 @@ build:
     
   ci:
     - java -version
-    #- mvn --version    
-    #- ant -version 
-    #- gradle --version
+    - mvn --version    
+    - ant -version 
+    - gradle --version
