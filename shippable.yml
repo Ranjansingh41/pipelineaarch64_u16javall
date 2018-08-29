@@ -5,6 +5,7 @@ jdk:
   - openjdk7
   - openjdk8
   - oraclejdk8
+  - oraclejdk10
 
 runtime:
   nodePool: Arm64
