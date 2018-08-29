@@ -18,6 +18,6 @@ build:
     
   ci:
     - java -version
-    - mvn --version    
+    #- mvn --version    
     - ant -version 
     - gradle --version
