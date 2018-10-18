@@ -5,6 +5,7 @@ jdk:
   - openjdk7
   - openjdk8
   - openjdk10
+  - openjdk10
   - oraclejdk8
   
 
@@ -18,7 +19,6 @@ build:
     pull: true
     
   ci:
-    - printenv
     - java -version
     - mvn --version    
     - ant -version 
